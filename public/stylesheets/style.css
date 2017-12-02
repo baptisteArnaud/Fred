@@ -1,0 +1,18 @@
+form{
+	display: flex;
+	margin-top: 10px;
+}
+
+.watson{
+	display: flex;
+	justify-content: flex-start;
+}
+
+.user{
+	display: flex;
+	justify-content: flex-end;
+}
+
+.message-container{
+	width: 30%;
+}
