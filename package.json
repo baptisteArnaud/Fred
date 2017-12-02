@@ -1,0 +1,20 @@
+{
+  "name": "fred",
+  "version": "1.0.0",
+  "description": "Fred is my virtual secretary. It is a web chatbot powered by IBM Watson Conversation.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/baptisteArnaud/Fred.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/baptisteArnaud/Fred/issues"
+  },
+  "homepage": "https://github.com/baptisteArnaud/Fred#readme"
+}
