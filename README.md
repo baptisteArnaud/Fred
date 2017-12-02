@@ -1,7 +1,7 @@
 # Fred
 Fred is my virtual secretary. It is a web chatbot powered by IBM Watson Conversation. 
 
-#Getting Started
+# Getting Started
 
 - Install Node dependencies `npm install`
 - Setup MongoDB locally https://docs.mongodb.com/manual/administration/install-community/
