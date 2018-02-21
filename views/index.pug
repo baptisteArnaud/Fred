@@ -1,13 +1,17 @@
 extends layout
 
 block content
-	section(class='section')
-		div(class='container')
-			div(class='chatbox')
-				div(class='watson')
-					div(class='message-container')
-						article(class='message')
-							div(class='message-body watson') Hello. How can I help you?
-			form
-				input(class='input', type='text', placeholder='Message' id='message')
-				button(class='button is-link' type='submit' id="submit") Submit
+	section(class='section home')
+		div(class='container chat')
+			div(class='fred-container')
+				figure
+					img(src='assets/images/fred.jpg')
+			div(class='chatbox-container')
+				div(class='chatbox', id='chatbox')
+					div(class='watson')
+						div(class='message-container')
+							article(class='message watson')
+								div(class='message-body') Hello. How can I help you?
+				form
+					input(class='input', type='text', placeholder='Message' id='message')
+					button(class='button is-link' type='submit' id="submit") Submit

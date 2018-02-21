@@ -1,3 +1,6 @@
+.custom-body{
+}
+
 form{
 	display: flex;
 	margin-top: 10px;
@@ -14,15 +17,65 @@ form{
 }
 
 .message-container{
-	width: 30%;
+	max-width: 55%;
 }
 
-.message-body.watson{
+.message.watson{
+	background: transparent;
+	
+}
+
+.message.watson .message-body{
 	background-color: #427087;
 	color: white;
 }
 
 .message-body{
-	border-radius: 8px !important;
+	border-radius: 10px !important;
 	border : 0 !important;
+}
+
+.message{
+	border-radius: 10px !important;
+	border : 0 !important;
+}
+.section.home{
+	height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.fred-container{
+	width: 15%;
+	margin-right: 20px;
+	display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+
+.fred-container img{
+	width: 100%;
+	-moz-transform: scale(-1, 1);
+    -o-transform: scale(-1, 1);
+    -webkit-transform: scale(-1, 1);
+    transform: scale(-1, 1);
+}
+
+.container.chat{
+	display: flex;
+	max-width: 800px;
+}
+
+.chatbox-container{
+	width: 85%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-bottom: 15px;
+    height: 396px;
+}
+
+.chatbox{
+	overflow: scroll;
+    max-height: 350px;
 }
