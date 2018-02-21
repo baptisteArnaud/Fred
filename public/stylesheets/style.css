@@ -16,3 +16,13 @@ form{
 .message-container{
 	width: 30%;
 }
+
+.message-body.watson{
+	background-color: #427087;
+	color: white;
+}
+
+.message-body{
+	border-radius: 8px !important;
+	border : 0 !important;
+}

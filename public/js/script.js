@@ -12,7 +12,7 @@ $(document).ready(function(){
         	type: "POST", 
         	data: jsonMessage,
         	success: function(data){ 
-        		newWatsonMessage = "<div class='watson'><div class='message-container'><article class='message'><div class='message-body'>"+data.message+"</div></article></div></div>"
+        		newWatsonMessage = "<div class='watson'><div class='message-container'><article class='message'><div class='message-body watson'>"+data.message+"</div></article></div></div>"
         		$(".chatbox").append(newWatsonMessage);
         	}, 
         	error: function(){ console.log('fail')}

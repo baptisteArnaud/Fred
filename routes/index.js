@@ -6,7 +6,7 @@ conversation = watson.config
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', {title : 'Hello World'});
+  res.render('index', {title : 'Fred'});
 });
 
 router.post('/', function(req, res, next){
@@ -28,7 +28,6 @@ router.post('/', function(req, res, next){
 		  if (response.output.text.length != 0) {
 		    var jsonMessage = {};
 		    jsonMessage.message = response.output.text[0];
-		    console.log(response.output.text[0]);
 		    res.send(jsonMessage);
 		  }
 	});
