@@ -1,7 +1,7 @@
 # Fred
 Fred is my virtual secretary. It is a web chatbot powered by IBM Watson Conversation. 
 
-![Preview](preview.jpg?raw=true "Preview")
+![Preview](preview.png?raw=true "Preview")
 
 # Getting Started
 
